@@ -1,3 +1,4 @@
+// https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/nesting-for-loops
 function multiplyAll(arr) {
     var product = 1;
     for (let i=0; i < arr.length; i++) {
