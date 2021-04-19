@@ -7,3 +7,9 @@ for (let i = 0; i < myArr.length; i++) {
   total +=  myArr[i];
 // console.log('after', total);
 }
+
+// OR reduce method 
+const total = myArr.reduce((subTotal, item) => {
+return item + subTotal
+}, 0)
+console.log(total)
